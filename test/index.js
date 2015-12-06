@@ -26,3 +26,17 @@ test('should work', function (t) {
 
   t.end()
 })
+
+test('should work with a function', function (t) {
+  var obj = {a: {b: 1}}
+  var newObj = setProp('a.b', obj, add1)
+
+  t.equal(obj.a.b, 1)
+  t.equal(newObj.a.b, 2)
+  t.notEqual(obj, newObj)
+  t.end()
+
+  function add1 (a) {
+    return a + 1
+  }
+})
