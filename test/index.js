@@ -40,3 +40,11 @@ test('should work with a function', function (t) {
     return a + 1
   }
 })
+
+test('should create new objects for subpaths that dont exist yet', function (t) {
+  var obj = {}
+  var newObj = setProp('a.b.c', obj, 1)
+
+  t.equal(newObj.a.b.c, 1)
+  t.end()
+})
