@@ -2,7 +2,7 @@
   "name": "@f/set-prop",
   "description": "Non-destructively set a nested property, given its path",
   "repository": "git://github.com/micro-js/set-prop.git",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
