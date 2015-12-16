@@ -10,12 +10,12 @@ Non-destructively set a nested property, given its path
 
 ## Installation
 
-    $ npm install @micro-js/set-prop
+    $ npm install @f/set-prop
 
 ## Usage
 
 ```js
-var setProp = require('@micro-js/set-prop')
+var setProp = require('@f/set-prop')
 var obj = {a: {b: 1}}
 var newObj = setProp('a.b', obj, 2)
 
@@ -45,5 +45,5 @@ MIT
 [git-url]: https://github.com/micro-js/set-prop
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/set-prop.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/set-prop
+[npm-image]: https://img.shields.io/npm/v/@f/set-prop.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/set-prop
